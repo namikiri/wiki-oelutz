@@ -1,0 +1,135 @@
+html, body {
+	font-size: 14px;
+	font-family: "Ubuntu", Arial, Tahoma, Verdana, Sans-Serif;
+	color: #FFFFFF;
+	background: #111111;
+}
+
+.infobox
+{
+	width: 700px;
+	margin: 0 auto;
+	background: #010101;
+}
+
+.infobox-header
+{
+	font-size: 27px;
+	text-align: center;
+}
+
+.infobox-header-menu
+{
+	font-size: 14px;
+	background: #111111;
+	margin-top: 5px;
+	border-top: 1px dashed #101010;
+	border-bottom: 1px dashed #101010;
+	text-align: center;
+}
+
+.infobox-header-menu a
+{
+	text-decoration: none;
+	color: #3FE936;
+}
+
+.infobox-header-menu a:hover
+{
+	text-decoration: none;
+	color: #00C4FF;
+}
+
+.infobox-content
+{
+	padding: 5px;
+}
+
+.infobox-intro
+{
+	margin: 0 auto;
+	width: 95%;
+	padding: 10px;
+	border-bottom: 1px dashed #555555;
+}
+.edit
+{
+	font-size: 16px;
+	border: 1px solid #3FE936;
+	width: 100%;
+	background: #000000;
+	color: #ffffff;
+}
+
+.text
+{
+	font-size: 16px;
+	border: 1px solid #3FE936;
+	width: 690px;
+	height: 200px;
+	background: #000000;
+	color: #ffffff;
+}
+
+.mesg
+{
+	width: 90%;
+	margin: 0 auto;
+	margin-bottom: 5px;
+	padding: 5px;
+	border: 1px dashed #202020;
+	text-align: center;
+}
+
+.error
+{
+	width: 90%;
+	margin: 0 auto;
+	margin-bottom: 5px;
+	padding: 5px;
+	border: 1px dashed #7E2020;
+	text-align: center;
+}
+
+.button
+{
+	border: 1px solid #3FE936;
+	margin: 5px;
+	background: #080808;
+	color: #ffffff;
+	font-size: 16px;
+}
+
+
+.infobox-footer
+{
+	font-size: 11px;
+	text-align: center;
+	background: #111111;
+}
+
+.infobox-footer a
+{
+	color: #AAAAAA;
+	
+}
+
+.search-results
+{
+	border-top: 1px dashed #777777;
+}
+
+.word
+{
+	text-align: left;
+	margin: 0 auto;
+	margin-bottom: 10px;
+}
+
+a {
+	color: #00C4FF;
+	text-decoration:none;
+}
+a:hover {
+	color: #3FE936;
+}
