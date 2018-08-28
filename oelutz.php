@@ -1,4 +1,5 @@
 <?php
+define('THIS_IS_NYANN', 'LOL');
 
 include ('./template/header.tpl');
 include ('./engine/database.php');

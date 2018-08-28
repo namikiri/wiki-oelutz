@@ -30,8 +30,7 @@ function getWordByID($id)
 
 function searchWords($seterm)
 {
-	return MySql::i()->query
-	("SELECT `id`,`word`,`description`,`link` FROM `words` WHERE (`word` LIKE ?) OR (`description` LIKE ?)", '%'.$seterm.'%', '%'.$seterm.'%')->fetchAll();
+	return MySql::i()->query("SELECT `id`,`word`,`description`,`link` FROM `words` WHERE (`word` LIKE ?) OR (`description` LIKE ?)", '%'.$seterm.'%', '%'.$seterm.'%')->fetchAll();
 }
 
 function getAllWords()

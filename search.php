@@ -7,7 +7,7 @@ include ('./engine/database.php');
 ?> 
 <form name="se" action="search.php" method="GET">
 	<label for="sea">Хули надо?</label>
-	<input type="text" name="q" value="<?=$_GET['q'];?>" class="edit">
+	<input type="text" name="q" value="<?=htmlspecialchars($_GET['q']);?>" class="edit">
 	<br>
 	<input type="submit" class="button" value="Встуц!">
 </form>
